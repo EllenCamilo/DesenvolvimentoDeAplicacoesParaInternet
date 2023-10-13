@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="styleSheet" href="asserts/css/style.css">
+    <title>Cadastros</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="titulo">Cadastre-se</h1>
+        <br>
+    </div>
+  
+    
+    <form>
+        <fieldset class="grupo">
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+            <div>
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <labelfor celular>Celular</label>
+                <input type="text" name="celular" id="celular" required>
+            </div>
+            <div>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" required>
+            
+            </div>
+        </fieldset>
+        
+        <div>
+            
+            <label>Conte um pouco sobre os animais que você tem, sua raça e comportamento:</label>
+            <textarea row="6" id="experiencia" name="experiencia"></textarea>
+        </div>
+    </form>
+    
+    
+        <div class="campo">
+            <label>Você é:</label>
+
+            <label>
+                <input type="radio" name="tipo" value="Dono de Pet"> Dono de Pet </imput>
+            </label>
+            <label>
+                <input type="radio" name="tipo" value="Passeador"> Passeador </imput>
+            </label>
+            <label>
+                <input type="radio" name="tipo" value="Hospedeiro"> Hospedeiro </imput>
+            </label>
+        </div>
+    <button class="botao" type=" submit">Concluido</button>
+
+</body>
+</html>
